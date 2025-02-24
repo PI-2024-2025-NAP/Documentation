@@ -43,13 +43,13 @@ sidebar_position: 2
 
 ## Action Items
 
-- **João** and **Guilherme**:
+- **João** and **Guilherme**:  
   1) Responsible for the Website interface development
 
-- **Tomás** and **Danilo**:
-  2) Responsible for the Mobile interface development
+- **Tomás** and **Danilo**:  
+  1) Responsible for the Mobile interface development
 
-- **Pedro**:
+- **Pedro**:  
   1) Responsible for the planning of the architecture
   
 ---
