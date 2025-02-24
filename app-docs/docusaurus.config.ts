@@ -8,7 +8,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  url: 'https://endiliey.github.io',
+  url: 'https://pi-2024-2025-nap.github.io/',
   baseUrl: '/',
   organizationName: 'PI-2024-2025-NAP', // Usually your GitHub org/user name.
   projectName: 'Documentation', // Usually your repo name.
