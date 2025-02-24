@@ -43,19 +43,19 @@ During the meeting, we discussed the architecture infrastructure and potential i
 ## Action Items
 
 - **João** and **Guilherme** are responsible for the Website interface:
-  - 1) Fix bugs in the first iteration
-  - 2) Prepare the presentation, update the report and backlog of the project
-  - 3) Review the code that Tomás and Danilo developed in the first iteration
+  1) Fix bugs in the first iteration
+  2) Prepare the presentation, update the report and backlog of the project
+  3) Review the code that Tomás and Danilo developed in the first iteration
 
 - **Tomás** and **Danilo** are responsible for the Mobile interface:
-  - 1) Fix bugs in the first iteration
-  - 2) Prepare the presentation, update the report and backlog of the project
-  - 3) Review the code that João and Guilherme developed in the first iteration 
+  1) Fix bugs in the first iteration
+  2) Prepare the presentation, update the report and backlog of the project
+  3) Review the code that João and Guilherme developed in the first iteration 
 
 - **Pedro** will complete:
-  - 1) Work on the planning of the architecture
-  - 2) Planning integration with ACTLL
-  - 3) Help in Mobile and Website
+  1) Work on the planning of the architecture
+  2) Planning integration with ACTLL
+  3) Help in Mobile and Website
 
 
 ---
