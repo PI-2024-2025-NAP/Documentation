@@ -1,8 +1,8 @@
 ---
 id: meeting_2
 title: Meeting 2 - February 14, 2025
-sidebar_label: Meeting X - February 14, 2025
-sidebar_position: X
+sidebar_label: Meeting 2 - February 14, 2025
+sidebar_position: 2
 ---
 
 # Meeting 2 - February 14, 2025

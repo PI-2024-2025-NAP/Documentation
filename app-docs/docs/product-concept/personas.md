@@ -13,7 +13,7 @@ The design and development of the **AI-Powered Platform for Smart City Issue Det
 
 ## Box 1. João, a Local Resident
 
-![João, a Local Resident](/img/citizen.jpg)
+![João, a Local Resident](/img/personas/citizen.jpg)
 
 **João** is a 35-year-old local resident who frequently commutes within the city and wants to contribute to the improvement of urban safety by reporting incidents such as potholes, accidents, or vandalism.
 
@@ -23,7 +23,7 @@ João is **frustrated** with unresponsive, slow, and impractical municipal servi
 
 ## Box 2. Ana, a Municipal Employee
 
-![Ana, a Municipal Employee](/img/municipal_employee.jpg)
+![Ana, a Municipal Employee](/img/personas/municipal_employee.jpg)
 
 **Ana** is a 45-year-old municipality employee working in the city's urban management department, monitoring reports and verifying incidents before dispatching repair crews.
 
@@ -33,7 +33,7 @@ Ana faces **challenges** such as a high volume of duplicate and decoupled report
 
 ## Box 3. Ricardo, the System Administrator
 
-![Miguel, the Football Player](/img/admin.jpg)
+![Miguel, the Football Player](/img/personas/admin.jpg)
 
 **Ricardo** is a 30-year-old system administrator responsible for monitoring the overall health and performance of the urban incident management system. He ensures that the platform runs smoothly, oversees data processing efficiency, and manages access to system resources. He also troubleshoots technical issues and ensures compliance with data security policies.
 

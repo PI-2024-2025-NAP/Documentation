@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'AI-Powered Platform for Smart City Issue Detection & Resolution',
-  favicon: 'img/logo_icon.png',
+  favicon: 'img/logo1.png',
   url: 'https://app-docs.com',
   baseUrl: '/',
 
@@ -44,10 +44,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'FixAI Docs',
+      title: '',
       logo: {
         alt: 'Our Site Logo',
-        src: 'img/logo.png',
+        src: 'img/FixAI.png',
       },
       items: [
         {
