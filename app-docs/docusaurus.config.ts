@@ -5,13 +5,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AI-Powered Platform for Smart City Issue Detection & Resolution',
   favicon: 'img/logo1.png',
-  url: 'https://app-docs.com',
-  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'deti', // Usually your GitHub org/user name.
-  projectName: 'AI-Powered Platform for Smart City Issue Detection & Resolution', // Usually your repo name.
+  url: 'https://endiliey.github.io',
+  baseUrl: '/',
+  organizationName: 'PI-2024-2025-NAP', // Usually your GitHub org/user name.
+  projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
