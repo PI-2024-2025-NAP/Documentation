@@ -2,12 +2,12 @@
 id: user-stories
 title: User Stories
 sidebar_label: User Stories
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 This section presents the **user stories** that define the core functionalities of the system, ensuring that the platform meets the needs of **citizens**, **city control operators**, and **administrators**.
 
-### Citizen User Stories
+## Citizen User Stories
 - **As a citizen**, I want to easily submit reports of urban issues (e.g., potholes, fallen trees, vandalism) through a mobile app, so that the city can quickly address them.
 - **As a citizen**, I want to receive a suggested description for faster submission and provide feedback, so that I can help to improve future recommendations.
 - **As a citizen**, I want to check the status of my reported issues and access a history of my past reports, so that I can track their resolution process.
@@ -15,7 +15,7 @@ This section presents the **user stories** that define the core functionalities 
 
 ---
 
-### City Control Operator User Stories
+## City Control Operator User Stories
 - **As a city control operator**, I want to access a centralized dashboard that organizes all reported incidents by category and location, so that I can efficiently manage, assign, and track the resolution of issues across the city.
 - **As a city control operator**, I want to filter reports based on status (e.g., pending, in progress, resolved).
 - **As a city control operator**, I want to access a historical log of past incidents along with details on how they were resolved, so that I can analyze recurring problems and improve response strategies.
@@ -28,7 +28,7 @@ This section presents the **user stories** that define the core functionalities 
 
 ---
 
-### Administrator User Stories
+## Administrator User Stories
 - **As an administrator**, I want to track system uptime and detect failures in real time, so that I can ensure high availability and reliability.
 - **As an administrator**, I want to receive alerts when the system detects anomalies, such as AI failures (e.g., inability to generate a description from an image), so that I can take immediate action to resolve the issue.
 - **As an administrator**, I want to have insights into the time taken by the AI model to infer the classification and generate the problem description, so that I can evaluate its effectiveness and trigger model retraining if necessary.
