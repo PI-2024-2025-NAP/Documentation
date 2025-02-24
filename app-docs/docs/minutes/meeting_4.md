@@ -90,7 +90,7 @@ The meeting focused on discussing the proposed architecture. The main topics cov
 
 - **Pedro** will complete:
   - 1) Update the architecture after the meeting, adjusting the components and the data flow
-  - 2) Help in Mobile and Website bug fixing
+  - 2) Help in Mobile and Website bug fixing 
 
 ---
 
