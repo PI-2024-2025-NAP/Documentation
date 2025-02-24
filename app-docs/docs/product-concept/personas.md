@@ -5,62 +5,39 @@ sidebar_label: Personas
 sidebar_position: 2
 ---
 
-## Personas
+The design and development of the **AI-Powered Platform for Smart City Issue Detection & Resolution** were supported by several Personas that represent the key users of the application. These include:
 
-The design and development of the **Smart Training System** were supported by several Personas that represent the key users of the application. These include:
+- **João**, a Local Resident (Box 1)
+- **Ana**, a Municipal Employee (Box 2)
+- **Ricardo**, a System Administrator (Box 3)
 
-- A primary Persona, **Carlos**, a Football Team Coach (Box 1)
-- A secondary Persona, **Ricardo**, a Personal Trainer (Box 2)
-- A served Persona, **Miguel**, a football player (Box 3)
-- An administrative Persona, **João**, the Team Director (Box 4)
-- An administrative Persona, **David**, the System Administrator (Box 5)
+## Box 1. João, a Local Resident
 
-## Box 1. Primary Persona: Carlos, the Football Team Coach
+![João, a Local Resident](/img/citizen.jpg)
 
-![Carlos, the Football Team Coach](/img/treinador.jpg)
+**João** is a 35-year-old local resident who frequently commutes within the city and wants to contribute to the improvement of urban safety by reporting incidents such as potholes, accidents, or vandalism.
 
-**Carlos** is a 45-year-old football coach with over 20 years of experience in coaching youth and professional teams. He is passionate about football tactics and player development. Outside of football, Carlos enjoys reading historical novels and spending time with his family.
+João is **frustrated** with unresponsive, slow, and impractical municipal services when reporting issues. He also finds it difficult to track the resolution of reported problems, leading to a sense of inefficiency in city maintenance.
 
-Carlos is **tech-savvy** and always looking for new ways to gain a competitive edge. He believes that **real-time data and analytics** can significantly enhance team performance. However, he finds it challenging to monitor all players' physical and performance statistics during training and matches due to the lack of integrated tools.
+**NEEDS**: João wants an **easy-to-use and fast mobile app** to submit incident reports. He also needs **feedback** on whether the incident has been addressed and the ability to **check the status** of his reported issues, as well as a history of past reports.
 
-**MOTIVATION**: Carlos wants to utilize a system that provides real-time access to his players' physical and performance data, allowing him to make quick decisions during training and matches to optimize team performance.
+## Box 2. Ana, a Municipal Employee
 
-## Box 2. Secondary Persona: Ricardo, the Personal Trainer
+![Ana, a Municipal Employee](/img/municipal_employee.jpg)
 
-![Ricardo, the Personal Trainer](/img/personalTrainer.jpg)
+**Ana** is a 45-year-old municipality employee working in the city's urban management department, monitoring reports and verifying incidents before dispatching repair crews.
 
-**Ricardo** is a 30-year-old personal trainer who has been working with the team for the past five years. He is energetic and highly dedicated to improving each player's physical fitness. In his free time, Ricardo enjoys hiking and practicing yoga.
+Ana faces **challenges** such as a high volume of duplicate and decoupled reports, difficulty in prioritizing incidents needing urgent attention, and problems in categorizing incidents effectively. She also struggles with the lack of live updates on incident verification and resolution status, as well as the absence of an automated system to filter, validate, and cluster similar reports.
 
-He uses various fitness tracking devices but finds it cumbersome to collect and analyze data from multiple sources. Ricardo aims to personalize training sessions based on each player's specific needs but lacks an efficient way to **monitor and adjust these sessions in real time**.
+**NEEDS**: Ana requires an **organized system** that categorizes and groups reports by location to facilitate efficient assignment of repair teams. She needs a **map-based interface** providing an overview of city-wide issues to enhance situational awareness and decision-making. A **priority ranking system** would help her highlight urgent or recurrent problems. Additionally, she needs a **real-time dashboard** displaying statistics on resolved issues, urgent cases, and remaining incidents. Automated verification tools, such as sensor-equipped vehicles or cameras, would further streamline the process by confirming incident resolutions.
 
-**MOTIVATION**: Ricardo seeks a solution that allows him to monitor players' physical statistics during training, receive alerts for any critical changes, and adjust training programs accordingly.
+## Box 3. Ricardo, the System Administrator
 
-## Box 3. Served Persona: Miguel, a Professional Football Player
+![Miguel, the Football Player](/img/admin.jpg)
 
-![Miguel, the Football Player](/img/footballPlayer.jpg)
+**Ricardo** is a 30-year-old system administrator responsible for monitoring the overall health and performance of the urban incident management system. He ensures that the platform runs smoothly, oversees data processing efficiency, and manages access to system resources. He also troubleshoots technical issues and ensures compliance with data security policies.
 
-**Miguel** is a 25-year-old forward who has been playing professionally for seven years. He is ambitious and constantly strives to improve his skills. Miguel enjoys **analyzing his performance stats** to identify areas for improvement.
+Ricardo faces **challenges** such as difficulty in monitoring system performance in real time, lack of visibility into API usage and potential bottlenecks, and challenges in tracking the efficiency of AI-based image analysis and incident verification. Additionally, he has security concerns related to unauthorized API access or data breaches.
 
-However, Miguel often feels limited by the **lack of detailed performance data**, believing that access to comprehensive insights could significantly enhance his career development.
+**NEEDS**: Ricardo requires a **dashboard** displaying key system metrics, such as the number of incidents reported, processed, and resolved over time. He also needs **performance analytics** on AI-based image recognition, including processing time per image and accuracy statistics. **API monitoring** is essential for tracking request rates, response times, and potential failures in data retrieval or submission. Furthermore, he needs **access control management** to configure and monitor user roles and permissions for different system users. Automated **alerts** for detecting unusual activity, such as sudden spikes in report submissions or slow AI processing times, would help maintain security and efficiency. Lastly, Ricardo needs **incident log history** for tracking system downtimes, errors, and processing delays, along with **system resource monitoring** for server load, storage capacity, and database query efficiency.
 
-**MOTIVATION**: Miguel wants to access his physical and performance statistics to identify his strengths and weaknesses and set new personal goals.
-
-## Box 4. Administrative Persona: João, the Team Director
-
-![João, the Team Director](/img/Director.jpeg)
-
-**João** is a 50-year-old team director responsible for the administrative and managerial functions of the club. He has a background in sports management and is keen on implementing systems that **enhance operational efficiency**. João enjoys playing golf and attending networking events.
-
-He is responsible for managing user access levels within the club's systems. João wants to ensure that sensitive information is only accessible to authorized personnel and that new players are onboarded smoothly.
-
-**MOTIVATION**: João seeks an efficient way to manage user permissions, add or remove team members, and ensure that everyone has appropriate access to the resources they need.
-
-## Box 5. Administrative Persona: David, the System Administrator
-
-![David, the System Administrator](/img/admin.png)
-
-**David** is a 40-year-old system administrator who has been managing IT infrastructure for sports organizations for the past 10 years. He is highly skilled in system security, network management, and ensuring the smooth operation of **software** platforms. In his free time, David enjoys photography and participates in online security forums to stay updated on the latest trends in cybersecurity.
-
-David oversees the backend of the Smart Training System, managing tasks such as integrating new sensors, monitoring system performance, and ensuring security and operational standards are met. He routinely reviews activity logs and tracks the total number of requests to various endpoints to ensure the system operates efficiently and reliably.
-
-**MOTIVATION**: David is dedicated to ensuring the Smart Training System operates efficiently while optimizing its settings to adapt to the club's evolving requirements.

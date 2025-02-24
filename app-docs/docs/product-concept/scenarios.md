@@ -5,48 +5,44 @@ sidebar_label: Scenarios
 sidebar_position: 3
 ---
 
-## Scenarios
+The following context scenarios illustrate how the **AI-Powered Platform for Smart City Issue Detection & Resolution** integrates into the daily activities of its users, helping them achieve their goals.
 
-The following context scenarios illustrate how the **Smart Training System** integrates into the daily activities of its users, helping them achieve their goals.
+## Scenario 1: João Reports a Pothole
 
-## Scenario 1: Carlos Utilizes Real-Time Player Data
+**João** is commuting to work when he notices a large pothole on the road. He opens the municipal app on his smartphone, takes a photo of the pothole, and the AI automatically generates a brief description (e.g., "Large pothole on Main Street"). João reviews the description, confirms the location, and submits the report in less than a minute. He feels satisfied knowing he contributed to improving his city.
 
-**Carlos** is preparing for an important match. During the training session, he opens the Smart Training System on his tablet. He navigates to the real-time dashboard displaying each player's heart rate, body temperature and respiratory rate. Noticing that Miguel's heart rate is unusually high, Carlos decides to substitute him to prevent injury and maintain training intensity.
+**Underlined Actions**: _opens the municipal app_; _takes a photo_; _reviews AI-generated description_; _confirms location_; _submits the report_.
 
-**Underlined Actions**: _opens the Smart Training System_; _navigates to the real-time dashboard_; _analyzes specific player statistics_; _decides to substitute him_.
+---
 
-## Scenario 2: Ricardo Personalizes Training Sessions
+## Scenario 2: João Checks the State of Previous Incidents
 
-**Ricardo** plans a specialized training session for a group of players recovering from minor injuries. He logs into the system and selects the players involved. During the session, he receives an alert that Rui has exceeded his safe heart rate zone. Ricardo promptly adjusts the exercise intensity.
+**João** is on his way home and remembers that he reported a broken streetlight near his neighborhood two weeks ago. Curious about the status of the issue, he opens the municipal app and navigates to the "My Reports" section. Here, he has two different possible views: the first one is a list of all incidents he has reported, along with their current status: "Pending", "In Progress" or "Resolved"; the second one is a map with all previously reported issues. He quickly finds the streetlight report and notices that the status has been updated to "In Progress," meaning that the municipal services are already addressing the problem.
 
-**Underlined Actions**: _logs into the system_; _selects the players_; _receives an alert_; _adjusts the exercise intensity_.
+**Underlined Actions**: _opens the municipal app_; _navigates to "My Reports"_; _finds a specific report_; _checks the latest update_.
 
-## Scenario 3: Miguel Reviews Performance and Sets Goals
+---
 
-After a training session, Miguel accesses the **Smart Training System** on his smartphone. He reviews his performance statistics.
+## Scenario 3: Ana Handles the Monthly Incidents Check
 
-**Underlined Actions**: _accesses the system_; _reviews performance statistics_; _compares with teammates_.
+At the beginning of the month, **Ana** is responsible for reviewing all incidents reported in the past 30 days to ensure that major urban issues are being addressed efficiently. She logs into the city control center's web platform and navigates to the "Monthly Report" section. Here, she can see an overview of incidents categorized by type, frequency, and resolution status. She filters the data to focus on high-priority cases, such as road damages and faulty traffic lights, as these directly impact citizens' safety. She notices that several potholes reported in different areas of the city are still unresolved. After the check, she creates a report highlighting key findings, including the total number of incidents pending, in progress, and resolved. She shares the report with municipal decision-makers and suggests adjustments to resource allocation for better efficiency in the upcoming month.
 
-## Scenario 4: João Manages Team Access
+**Underlined Actions**: _logs into the city control center web platform_; _navigates to "Monthly Report"_; _filters data by priority_; _checks unresolved cases_; _compiles a report_; _shares findings with decision-makers_.
 
-João receives notification that a new player has joined the team. He logs into the **Smart Training System**, navigates to the team management panel, and adds the new player to the roster. João assigns the appropriate access level, ensuring the player can view only their personal data.
+---
 
-**Underlined Actions**: _opens the Smart Training System_; _goes to the team management panel_; _adds the new player_; _assigns access levels_.
+## Scenario 4: Ana Handles a Large Number of Incident Reports After a Storm in the City
 
-## Scenario 5: Carlos Analyzes Past Match Data
+**Ana** is monitoring the city's incident management dashboard after a severe storm. She accesses the municipal data platform (website), which aggregates incident reports submitted by citizens through the app. Filtering for the last 3 days in the incident’s map tab, she can see over 200 flooding reports, grouped by location and category. Among these reports, there are issues related to damaged sidewalks, affected municipal buildings, bent traffic signs, and fallen trees blocking the road. Ana reviews the priority issues automatically identified by the system. The system prioritizes incidents based on the frequency of reports in a given location and the severity of the situation. Ana contacts the repair crews to address the most critical areas first, and then updates the status of each report in real time to "In Progress".
 
-Before an upcoming match against a strong opponent, Carlos wants to revisit past games. He accesses previous match statistics, focusing on players' physical and performance data. Carlos identifies patterns that could be improved and develops a new strategy. He keeps these insights confidential within the system.
+**Underlined Actions**: _opens the incident management dashboard_; _navigates to the live map_; _reviews clustered reports_; _verifies severity using traffic cameras_; _assigns repair crews_; _updates report statuses_.
 
-**Underlined Actions**: _opens the Smart Training System_; _accesses previous match statistics_; _identifies patterns_; _develops a new strategy_; _keeps insights confidential_.
+---
 
-## Scenario 6: David Assigns Permissions to a Team Director
+## Scenario 5: Ricardo Monitors System Performance
 
-David receives notification that a new team director, João, has been hired and needs access to the Smart Training System. He logs onto the administrative dashboard and navigates to the team management section. David creates a new user account for João and assigns him the role of Team Director, carefully configuring the permissions to allow João to autonomously manage the access levels of his team members without accessing sensitive system settings.
+**Ricardo** starts his day by logging into the administration dashboard to monitor the system's performance. He notices an unusual spike in incident reports within the last hour, so he checks the API request logs to investigate. The logs show a surge in image uploads from a specific district, possibly indicating a major event.
 
-**Underlined Actions**: _logs into the administrative dashboard_; _navigates to the team management section_; _creates a new user account_; _assigns the Team Director role_; _configures permissions_.
+Concerned about system performance, Ricardo reviews the AI processing latency metrics and sees that the average analysis time for images has increased. He then examines server resource usage and detects an unusually high computational load. Since he can only monitor the system, he logs the issue and notifies the technical team, ensuring they can take action if necessary.
 
-## Scenario 7: David Checks System Status
-
-As part of his daily routine, David logs into the Smart Training System's admin dashboard to ensure everything is running smoothly. He checks the system status and sees that all services are operational without any issues. After verifying that there are no alerts or warnings, David logs out, confident that the system is performing as expected.
-
-**Underlined Actions**: _logs into the admin dashboard_; _checks the system status_; _verifies no alerts_; _logs out_.
+**Underlined Actions**: _logs into the administration dashboard_; _checks API request logs_; _reviews AI processing latency metrics_; _examines server resource usage_; _logs the issue_; _notifies the technical team_.
