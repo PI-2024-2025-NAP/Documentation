@@ -79,18 +79,18 @@ The meeting focused on discussing the proposed architecture. The main topics cov
 ## Action Items
 
 - **João** and **Guilherme** are responsible for the Website interface:
-  - 1) Fix bugs in the first iteration
-  - 2) Prepare the presentation, update the report and backlog of the project
-  - 3) Review the code that Tomás and Danilo developed in the first iteration
+  1) Fix bugs in the first iteration
+  2) Prepare the presentation, update the report and backlog of the project
+  3) Review the code that Tomás and Danilo developed in the first iteration
 
 - **Tomás** and **Danilo** are responsible for the Mobile interface:
-  - 1) Fix bugs in the first iteration
-  - 2) Prepare the presentation, update the report and backlog of the project
-  - 3) Review the code that João and Guilherme developed in the first iteration 
+  1) Fix bugs in the first iteration
+  2) Prepare the presentation, update the report and backlog of the project
+  3) Review the code that João and Guilherme developed in the first iteration 
 
 - **Pedro** will complete:
-  - 1) Update the architecture after the meeting, adjusting the components and the data flow
-  - 2) Help in Mobile and Website bug fixing 
+  1) Update the architecture after the meeting, adjusting the components and the data flow
+  2) Help in Mobile and Website bug fixing 
 
 ---
 

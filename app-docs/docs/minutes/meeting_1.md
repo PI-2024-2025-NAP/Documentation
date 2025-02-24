@@ -51,24 +51,24 @@ sidebar_position: 1
 
 ## Action Items
 
-- **Danilo** is responsible for the following sections of the report, to be submitted by October 7, 2024:
-  - 1) Personas and Main Scenarios
-  - 2) Key Requirements and Constraints
+- **Danilo** is responsible for the following sections of the report:
+  1) Personas and Main Scenarios
+  2) Key Requirements and Constraints
 
 - **Pedro** will complete:
-  - 1) Project Calendar
-  - 2) State of the art and related work
+  1) Project Calendar
+  2) State of the art and related work
 
 - **João** will handle:
-  - 1) Personas and Main Scenarios
-  - 2) Key Requirements and Constraints
+  1) Personas and Main Scenarios
+  2) Key Requirements and Constraints
 
 - **Tomás** will:
-  - 1) Install and Docusaurus setup
-  - 2) Prepare Docusaurus tools documentation for team members
-  - 3) GitHub repository setup
-  - 4) Backlog management system setup
-  - 5) Start the M1 presentation slides
+  1) Install and Docusaurus setup
+  2) Prepare Docusaurus tools documentation for team members
+  3) GitHub repository setup
+  4) Backlog management system setup
+  5) Start the M1 presentation slides
 
 ---
 

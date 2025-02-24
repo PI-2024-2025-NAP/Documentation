@@ -1,8 +1,8 @@
 ---
 id: meeting_2
 title: Meeting 2 - February 14, 2025
-sidebar_label: Meeting X - February 14, 2025
-sidebar_position: X
+sidebar_label: Meeting 2 - February 14, 2025
+sidebar_position: 2
 ---
 
 # Meeting 2 - February 14, 2025
@@ -43,13 +43,13 @@ sidebar_position: X
 
 ## Action Items
 
-- **João** and **Guilherme**:
+- **João** and **Guilherme**:  
   1) Responsible for the Website interface development
 
-- **Tomás** and **Danilo**:
-  2) Responsible for the Mobile interface development
+- **Tomás** and **Danilo**:  
+  1) Responsible for the Mobile interface development
 
-- **Pedro**:
+- **Pedro**:  
   1) Responsible for the planning of the architecture
   
 ---
