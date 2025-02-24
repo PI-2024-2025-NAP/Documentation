@@ -10,29 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Real-Time Data Monitoring',
-    Svg: require('@site/static/img/undraw_fitness_stats_sht6.svg').default,
+    title: 'Mobile App - Smart Incident Reporting',
+    Svg: require('@site/static/img/illustrations/mobile.svg').default,
     description: (
       <>
-        Track player statistics like heart rate, body temperature and respiratory rate, providing actionable insights during training and matches.
+        The app allows citizens to quickly report urban incidents taking a picture. AI suggests descriptions and users can track the status of their reports with real-time notifications.
       </>
     ),
   },
   {
-    title: 'Role-Based Access Control',
-    Svg: require('@site/static/img/undraw_team_spirit_re_yl1v.svg').default,
+    title: 'Web Dashboard - City Control & Management',
+    Svg: require('@site/static/img/illustrations/website.svg').default,
     description: (
       <>
-        Manage permissions efficiently with role-based access for coaches, team directors, personal trainers, and players, ensuring secure and organized data access.
+        The dashboard helps municipal operators manage and monitor incidents, filter by status, view them on a map, and access historical data for efficient response coordination.
       </>
     ),
   },
   {
-    title: 'In-Game Metrics Analysis',
-    Svg: require('@site/static/img/undraw_all_the_data_re_hh4w.svg').default,
+    title: 'AI & ATCLL Integration',
+    Svg: require('@site/static/img/illustrations/AI.svg').default,
     description: (
       <>
-        Monitor in-game metrics like heart rate, body temperature and respiratory rate, allowing coaches to make data-driven decisions for real-time tactical adjustments.
+        The platform uses AI and computer vision to classify urban incidents with IoT sensors, cameras, and autonomous vehicles, and connects to Aveiro Tech City Living Lab for scalability and interoperability.
       </>
     ),
   },

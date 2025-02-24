@@ -7,7 +7,7 @@ sidebar_position: 2
 
 # Introduction
 
-**STS – Smart Training System** is a digital solution intended to help coaches, team directors, personal trainers, and players to oversee and assess player performance as it happens. This project is being developed as part of the **Introduction to Software Engineering (IES)** course. The main objective of this assignment is not solely the delivery of a final product, but rather the focus on applying software development processes and methodologies.
+**AI-Powered Platform for Smart City Issue Detection & Resolution** is an AI-powered collaborative platform designed to improve urban safety and incident resolution through citizen participation and automated detection. This project is being developed as part of the **Projeto em Informática (PI)** course. The main objective is not only to deliver a final product but also to emphasize the software development process, including system architecture, AI integration, and usability testing.
 
 To effectively manage our development process, we will implement tools and practices such as:
 

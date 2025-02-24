@@ -6,7 +6,7 @@ sidebar_label: GitHub Workflow
 
 # GitHub Workflow
 
-This document outlines the branch naming conventions, issue naming conventions, and commit message guidelines for the **Smart Training System** project to ensure a clean, organized, and easily navigable codebase.
+This document outlines the branch naming conventions, issue naming conventions, and commit message guidelines for the **AI-Powered Platform for Smart City Issue Detection & Resolution** project to ensure a clean, organized, and easily navigable codebase.
 
 ## Branch Naming Convention
 

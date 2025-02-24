@@ -7,7 +7,7 @@ sidebar_position: 8
 
 # Meeting Minutes Overview
 
-Welcome to the **Meeting Minutes** section of the documentation. This folder contains the detailed records of all meetings that will take place during the development of the **Smart Training System** project.
+Welcome to the **Meeting Minutes** section of the documentation. This folder contains the detailed records of all meetings that will take place during the development of the **AI-Powered Platform for Smart City Issue Detection & Resolution** project.
 
 ## Purpose
 
