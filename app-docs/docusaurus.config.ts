@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'AI-Powered Platform for Smart City Issue Detection & Resolution',
-  favicon: 'img/logo1.png',
+  favicon: 'img/logo-small-noback.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -48,7 +48,7 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'Our Site Logo',
-        src: 'img/FixAI.png',
+        src: 'img/logo-noback.png',
       },
       items: [
         {
