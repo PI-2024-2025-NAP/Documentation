@@ -12,6 +12,7 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'PI-2024-2025-NAP', // Usually your GitHub org/user name.
   projectName: 'Documentation', // Usually your repo name.
+  trailingSlash: false, // Set to true if needed
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
