@@ -2,7 +2,7 @@
 id: product-concept
 title: Product Concept
 sidebar_label: Product Concept
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Product Concept
