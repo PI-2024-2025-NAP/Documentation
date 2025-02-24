@@ -9,7 +9,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   url: 'https://pi-2024-2025-nap.github.io/',
-  baseUrl: '/',
+  baseUrl: '/Documentation/',
   organizationName: 'PI-2024-2025-NAP', // Usually your GitHub org/user name.
   projectName: 'Documentation', // Usually your repo name.
   trailingSlash: false, // Set to true if needed

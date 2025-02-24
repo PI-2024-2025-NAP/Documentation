@@ -11,4 +11,4 @@ Welcome to the **Information Perspective** section. This area focuses on the key
 
 ## Subsections
 
-- [Domain Model](domain_model)
+- [Domain Model](./domain_model.md)

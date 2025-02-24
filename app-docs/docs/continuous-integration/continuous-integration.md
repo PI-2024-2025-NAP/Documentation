@@ -10,6 +10,6 @@ sidebar_position: 7
 Welcome to the **Continuous Integration** section. This area provides an in-depth look into the Continuous Integration that every developer should follow.
 ## Subsections
 
-- [GitHub Workflow](github_workflow)
+- [GitHub Workflow](./github_workflow.md)
 <!-- - [Syntax Structure](sintax_structure) -->
 

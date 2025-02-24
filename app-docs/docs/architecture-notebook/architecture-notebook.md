@@ -10,6 +10,6 @@ sidebar_position: 5
 Welcome to the **Architecture** section. This area provides an in-depth look into the architecture diagram and view.
 ## Subsections
 
-- [Architecture Diagram](architecture-diagram)
-- [Tech Stack](tech_stack)
+- [Architecture Diagram](./architecture-diagram.md)
+- [Tech Stack](./tech_stack.md)
 

@@ -11,6 +11,6 @@ Welcome to the **Product Concept** section. This area provides an in-depth look 
 
 ## Subsections
 
-- [Vision Statement](vision-statement)
-- [Personas](personas)
-- [Main Scenarios](scenarios)
+- [Vision Statement](./vision-statement.md)
+- [Personas](./personas.md)
+- [Main Scenarios](./scenarios.md)
