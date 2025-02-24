@@ -7,11 +7,11 @@ sidebar_position: 1
 
 # Course
 
-**IES - Introdução à Engenharia de Software**
+**PI - Projeto em Informática**
 
 # Date
 
-**Aveiro, 07/12/2024**
+**Aveiro, 20/02/2025**
 
 # Students
 
@@ -19,15 +19,16 @@ sidebar_position: 1
 - **113384**: Danilo Micael Gregório Silva
 - **115304**: Pedro Miguel Azevedo Pinto
 - **104384**: João Pedro Azevedo Pinto
+- **113893**: Guilherme Ferreira Santos
 
 # Project Abstract
 
-**Smart Training System** is a web-based platform that will be designed to assist coaches in monitoring and analyzing player performance in real-time. The application will provide key physical statistics, including heart rate, body temperature and respiratory rate. Utilizing distributed data streams from sensors, the platform will enhance real-time decision-making during training and matches.
+**AI-Powered Platform for Smart City Issue Detection & Resolution** allows both citizens and sensors distributed across the city to submit event photos, which are analyzed using computer vision models to classify incidents and determine their locations. Additionally, autonomous sensor-equipped vehicles and urban cameras confirm incident resolutions, ensuring up-to-date information. The solution includes a **mobile application** for citizens and a **web platform** for municipal authorities, facilitating real-time monitoring, automated classification, and efficient event management.
 
-**Key Features:**
+**Key Challenges:**
 
-- **Real-Time Data Integration**: Seamlessly integrates data from various sensors to provide up-to-the-minute statistics.
-- **Role-Based Access Control**: Ensures that different users have appropriate access levels based on their roles.
-- **Comprehensive REST API**: Facilitates easy integration with the web portal and future mobile applications, allowing for scalability and flexibility.
+- **AI integration**: AI-powered image analysis and real-time verification improve the precision of incident categorization.
+- **ATCLL integration**: Smart sensors and automated image recognition validate incidents, ensuring up-to-date and accurate status tracking.
+- **Privacy**: Data security and compliance are essential to protect user information.
 
-This system aims to empower coaches with actionable insights, enabling them to make informed decisions that improve team performance and player development.
+The project also focuses on designing an adaptable architecture for integration with existing platforms and conducting usability tests to meet user needs effectively.

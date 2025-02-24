@@ -7,29 +7,25 @@ sidebar_position: 1
 
 # Meeting 1 - February 10, 2025
 
-## Meeting Date
+---
+
+## Meeting Metadata
+
+### Date
+
 **February 10, 2025**
 
-## Attendees
+### Attendees
+
 - Danilo Micael Gregório Silva
 - Pedro Miguel Azevedo Pinto
 - João Pedro Azevedo Pinto
 - Tomás Santos Fernandes
 - Guilherme Ferreira Santos
 
-## Agenda
-- Clarification of the project's vision, scope and objectives
-- Discussing roles 
-- Discussing deadlines for the project (project calendar)
-- Specification of the Personas, Main Scenarios and User Stories
-- Tasks related to Docusaurus/Documentation setup
-
-## Key Discussion Points
-Here’s a more detailed version of your agenda with expanded points:  
-
 ---
 
-## **Agenda**   
+## Key Discussion Points
 
 - Define the main purpose of the project and its expected impact.  
 - Clarify the problem it aims to solve and the benefits it provides to users and stakeholders.  
@@ -51,30 +47,30 @@ Here’s a more detailed version of your agenda with expanded points:
 - Set up Docusaurus for project documentation.  
 - Establish documentation best practices and style guidelines.  
 
+---
+
 ## Action Items
-- **Danilo** is responsible for the following sections of the report, to be submitted by October 7, 2024:
-  - 1) Personas and Main Scenarios
-  - 2) Key Requirements and Constraints
+
+- **Danilo** is responsible for the following sections of the report:
+  1) Personas and Main Scenarios
+  2) Key Requirements and Constraints
 
 - **Pedro** will complete:
-  - 1) Project Calendar
-  - 2) State of the art and related work
+  1) Project Calendar
+  2) State of the art and related work
 
 - **João** will handle:
-  - 1) Personas and Main Scenarios
-  - 2) Key Requirements and Constraints
+  1) Personas and Main Scenarios
+  2) Key Requirements and Constraints
 
 - **Tomás** will:
-  - 1) Install and Docusaurus setup
-  - 2) Prepare Docusaurus tools documentation for team members
-  - 3) GitHub repository setup
-  - 4) Backlog management system setup
-  - 5) Start the M1 presentation slides
-
-## Next Steps
-- Continue working on the assigned sections of the report, while consolidating the project vision and scope for a more detailed and clarified concept.
+  1) Install and Docusaurus setup
+  2) Prepare Docusaurus tools documentation for team members
+  3) GitHub repository setup
+  4) Backlog management system setup
+  5) Start the M1 presentation slides
 
 ---
 
-**Note**: This meeting helped to establish the project's foundation and set the stage for the team's collaboration. The next steps will focus on refining the project's vision, scope, and objectives, as well as defining the roles and responsibilities of each team member. The project calendar will be finalized, and the team will begin working on the project's documentation and deliverables. The next meeting will focus on reviewing the progress made and addressing any issues or challenges that may arise. The team is excited to move forward with the project and is committed to delivering a successful outcome.  
+**Note**: N/A
 

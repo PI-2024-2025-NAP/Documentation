@@ -3,16 +3,15 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'PI App',
-  tagline: 'PI Project',
-  favicon: 'img/logo_icon.png',
-  url: 'https://app-docs.com',
-  baseUrl: '/',
+  title: 'AI-Powered Platform for Smart City Issue Detection & Resolution',
+  favicon: 'img/logo1.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'deti', // Usually your GitHub org/user name.
-  projectName: 'smart-training-system', // Usually your repo name.
+  url: 'https://endiliey.github.io',
+  baseUrl: '/',
+  organizationName: 'PI-2024-2025-NAP', // Usually your GitHub org/user name.
+  projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,7 +31,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/detiuaveiro/ies-24-25-group-project-201',
+            'https://github.com/PI-2024-2025-NAP',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -45,10 +44,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'STS Docs',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.png',
+        alt: 'Our Site Logo',
+        src: 'img/FixAI.png',
       },
       items: [
         {
@@ -63,12 +62,12 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/detiuaveiro/ies-24-25-group-project-201',
+          href: 'https://github.com/PI-2024-2025-NAP',
           label: 'GitHub',
           position: 'right',
         },
         {
-          href: 'https://github.com/orgs/detiuaveiro/projects/31',
+          href: 'https://github.com/orgs/PI-2024-2025-NAP/projects/1/views/13',
           label: 'Backlog',
           position: 'right',
         },
@@ -76,7 +75,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `STS Copyright © ${new Date().getFullYear()}`,   
+      copyright: `FixAI Copyright © ${new Date().getFullYear()}`,   
     },
     prism: {
       theme: prismThemes.github,
