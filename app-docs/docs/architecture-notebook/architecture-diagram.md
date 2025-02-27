@@ -8,7 +8,7 @@ sidebar_label: Architectural Diagram
 
 Below is a high-level diagram illustrating the system architecture of the **AI-Powered Platform for Smart City Issue Detection & Resolution**, showing how the various components and technologies are integrated to form a cohesive and scalable platform.
 
-![System Architecture Diagram](/img/architecture/architecture.1.0.0.svg)
+![System Architecture Diagram](../../static/img/architecture/architecture.1.0.0.svg)
 
 The diagram represents a **modern, scalable, and distributed system** designed for **real-time data processing, analytics, and smart city applications**. The architecture integrates **Kubernetes clusters, event-driven communication, and machine learning components** to process incidents, analyze data, and deliver insights to both **citizens and city operators**.  
 
