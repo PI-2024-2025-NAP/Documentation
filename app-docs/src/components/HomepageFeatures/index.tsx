@@ -229,25 +229,14 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
       </section>
 
-      <div
-  className="container"
-  style={{
-    display: 'flex',
-    gap: '4rem',
-    marginTop: '3rem',
-    justifyContent: 'center',   // centers horizontally
-    maxWidth: '1000px',         // max width for the two tables together
-    marginLeft: 'auto',         // center container horizontally
-    marginRight: 'auto',
-  }}
->
-  <div style={{ flex: 1, minWidth: 0,  }}>
-    <DeliverablesTable />
-  </div>
-  <div style={{ flex: 1, minWidth: 0 }}>
-    <MinutesTable />
-  </div>
-</div>
+      <div className={`container ${styles.tablesContainer}`}>
+        <div>
+          <DeliverablesTable />
+        </div>
+        <div>
+          <MinutesTable />
+        </div>
+      </div>
 
     </>
   );
