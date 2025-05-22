@@ -23,12 +23,10 @@ sidebar_position: 1
 
 # Project Abstract
 
-**AI-Powered Platform for Smart City Issue Detection & Resolution** allows both citizens and sensors distributed across the city to submit event photos, which are analyzed using computer vision models to classify incidents and determine their locations. Additionally, autonomous sensor-equipped vehicles and urban cameras confirm incident resolutions, ensuring up-to-date information. The solution includes a **mobile application** for citizens and a **web platform** for municipal authorities, facilitating real-time monitoring, automated classification, and efficient event management.
+**FixAI** is an **AI-powered platform** designed to improve how urban infrastructure issues are detected, classified, and resolved. It establishes a feedback loop between citizens and municipal authorities by combining user-submitted reports with automated backend analysis. The platform includes a **mobile app** for the public and a **desktop interface** for city operators.
 
-**Key Challenges:**
+The mobile app allows users to report issues by taking a photo, after which the system extracts metadata (e.g., geolocation), uses **AI to classify the incident, assess severity, and generate structured descriptions**. A personal dashboard lets users track the status of their reports and view issues in list or map format.
 
-- **AI integration**: AI-powered image analysis and real-time verification improve the precision of incident categorization.
-- **ATCLL integration**: Smart sensors and automated image recognition validate incidents, ensuring up-to-date and accurate status tracking.
-- **Privacy**: Data security and compliance are essential to protect user information.
+For city operators, the desktop interface acts as a control center. It features customizable dashboards, detailed incident pages, and a dynamic map with filtering and heatmap functionality. **To reduce redundancy, FixAI groups related reports** into single incidents using geospatial indexing (via the H3 framework) and AI-based similarity detection.
 
-The project also focuses on designing an adaptable architecture for integration with existing platforms and conducting usability tests to meet user needs effectively.
+By streamlining reporting and analysis, FixAI fosters efficient urban governance and promotes citizen engagement. The platform supports data-informed decisions for infrastructure maintenance and urban planning, offering a **scalable model for smart city management**.

@@ -7,7 +7,7 @@ sidebar_position: 2
 
 # Introduction
 
-**AI-Powered Platform for Smart City Issue Detection & Resolution** is an AI-powered collaborative platform designed to improve urban safety and incident resolution through citizen participation and automated detection. This project is being developed as part of the **Projeto em Informática (PI)** course. The main objective is not only to deliver a final product but also to emphasize the software development process, including system architecture, AI integration, and usability testing.
+**FixAI** is an AI-powered collaborative platform designed to improve urban safety and incident resolution through citizen participation and automated detection. This project is being developed as part of the **Projeto em Informática (PI)** course. The main objective is not only to deliver a final product but also to emphasize the software development process, including system architecture, AI integration, and usability testing.
 
 To effectively manage our development process, we will implement tools and practices such as:
 

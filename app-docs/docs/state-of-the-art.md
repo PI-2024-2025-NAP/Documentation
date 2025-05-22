@@ -18,7 +18,7 @@ This section provides an analysis of existing solutions in the field of issue-re
 - **No priority-based categorization** – There’s no mention of urgency levels, meaning critical issues might not be prioritized appropriately.
 - **No integration with AI or automated processing** – The process seems entirely manual, lacking smart automation to streamline reporting and response times.
 
-## <h2 style={{ display: "inline-flex", verticalAlign: "middle" }}>A Minha Rua (gov.pt)</h2>
+## A Minha Rua (gov.pt)
 - **No option to upload photos** – Users can only provide a written description without attaching images for better context.
 - **No automatic location detection** – Users must manually enter the address, which can be inaccurate.
 - **No smart categorization** – Users need to manually select the problem category without AI-powered suggestions.
