@@ -13,7 +13,6 @@ In addition to the functional requirements outlined in the user stories, the sys
 - **Description Generation Model**: Must generate a description within **4 seconds** (on the first attempt).
 - The user should be able to submit the incident within **5 seconds** after taking the picture.
 - The system should handle **X concurrent users** without degradation.
-- Response times should not exceed **Y milliseconds** under peak load.
 - The application should support **autoscaling** to maintain responsiveness.
 
 ## 2. Scalability Requirements

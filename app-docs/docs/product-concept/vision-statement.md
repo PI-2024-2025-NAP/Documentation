@@ -28,21 +28,11 @@ The project also aims to address several challenges associated with this type of
 
 ---
 
-## Problem Statement
-The primary problem our system aims to solve is the **lack of efficient and automated urban incident reporting and resolution**, which leads to delays in addressing issues and inaccurate status updates. Key features designed to address this include:
-
-- **AI-Powered Incident Classification** to automatically categorize and describe incidents.
-- **Duplicate Report Detection** to group similar complaints and prevent redundant submissions.
-- **Real-Time Notifications** to keep users updated on incident status and resolution.
-
-These features focus on delivering an intelligent, efficient, and user-friendly reporting system that benefits both citizens and city authorities.
-
----
-
 ## Differentiation
+
 The **AI-Powered Platform for Smart City Issue Detection & Resolution** differentiates itself by emphasizing:
 
-- **AI-Based Classification and Verification**: Utilizing LLMs for incident classification and description generation, reducing manual effort and improving accuracy.
+- **AI-Based Classification and Verification**: Utilizing LLMs for incident classification and description generation, reducing manual effort.
 - **Geospatial Indexing**: Employing the H3 framework for efficient geospatial indexing and clustering of similar reports, enhancing data management.
 - **Citizens**: Empowering citizens to actively participate in urban governance by submitting reports and receiving real-time updates.
 - **Scalability**: Designed to handle a large volume of reports and data, ensuring efficient performance even in high-demand scenarios.
