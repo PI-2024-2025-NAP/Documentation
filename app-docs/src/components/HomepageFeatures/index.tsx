@@ -282,6 +282,7 @@ export default function HomepageFeatures(): JSX.Element {
 
       {/* QR Code Section */}
       <section className="margin-top--xl">
+        <Heading as="h2" className="text--center">Use the Mobile App</Heading>
         <div className="row" style={{ justifyContent: 'center', marginTop: '2rem' }}>
           <div
             className="card shadow--md"
