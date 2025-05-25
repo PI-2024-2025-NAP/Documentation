@@ -238,17 +238,17 @@ export default function HomepageFeatures(): JSX.Element {
             {
               label: 'Poster',
               iconClass: 'fas fa-file-alt fa-lg',
-              href: '/assets/pdf/poster.pdf',
+              href: '/poster/poster.pdf',
             },
             {
               label: 'Promotional Video',
               iconClass: 'fas fa-video fa-lg',
-              href: 'https://youtu.be/dummy_promo_video',
+              href: 'https://www.youtube.com/watch?v=vdJwZ-qUtsk',
             },
             {
               label: 'Demo',
               iconClass: 'fas fa-laptop fa-lg',
-              href: 'https://youtu.be/dummy_demo_video',
+              href: 'https://www.youtube.com/watch?v=xDF1uHhStT0',
             },
           ].map(({ label, iconClass, href }, idx) => (
             <a
