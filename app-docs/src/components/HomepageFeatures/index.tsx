@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import { FaDownload } from 'react-icons/fa';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 type FeatureItem = {
   title: string;
@@ -238,7 +239,7 @@ export default function HomepageFeatures(): JSX.Element {
             {
               label: 'Poster',
               iconClass: 'fas fa-file-alt fa-lg',
-              href: '/poster/poster.pdf',
+              href: useBaseUrl('/poster/poster.pdf'),
             },
             {
               label: 'Promotional Video',
