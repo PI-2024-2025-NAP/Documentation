@@ -229,7 +229,7 @@ export default function HomepageFeatures(): JSX.Element {
       </section>
 
       {/* New Deliverables Section */}
-      <section className="margin-top--lg">
+      <section className="margin-top--lg container">
         <Heading as="h2" className="text--center">Poster & Promotional Video & Demo</Heading>
         <div
           className="row"
@@ -280,9 +280,45 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
       </section>
 
+      {/* QR Code Section */}
+      <section className="margin-top--xl">
+        <div className="row" style={{ justifyContent: 'center', marginTop: '2rem' }}>
+          <div
+            className="card shadow--md"
+            style={{
+              padding: '2rem',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              textAlign: 'center',
+              maxWidth: '300px',
+            }}
+          >
+            <img
+              src={useBaseUrl('/qr-code/qr-code.png')}
+              alt="QR Code for Expo App"
+              style={{ width: '200px', height: '200px', marginBottom: '1.5rem' }}
+            />
+            <p style={{ fontSize: '1rem', margin: 0 }}>
+              Install the {" "}
+              <a
+                href="https://expo.dev/client"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'underline', color: 'var(--ifm-link-color)' }}
+              >
+                Expo Go App
+              </a>{" "}
+              on your smartphone before scanning.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      {/* Existing tables */}
-      <div className={`container ${styles.tablesContainer}`}>
+
+
+      {/* Existing tables Section */}
+      <div className={`container ${styles.tablesContainer } card shadow--md margin-bottom--lg`}>
         <div>
           <DeliverablesTable />
         </div>
