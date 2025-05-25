@@ -141,8 +141,6 @@ const minutes = [
   }
 ];
 
-
-
 function DeliverablesTable() {
   return (
     <section style={{ marginTop: '3rem' }}>
@@ -229,6 +227,60 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
       </section>
 
+      {/* New Deliverables Section */}
+      <section className="margin-top--lg">
+        <Heading as="h2" className="text--center">Poster & Promotional Video & Demo</Heading>
+        <div
+          className="row"
+          style={{ justifyContent: 'center', marginTop: '3rem', gap: '2rem' }}
+        >
+          {[
+            {
+              label: 'Poster',
+              iconClass: 'fas fa-file-alt fa-lg',
+              href: '/assets/pdf/poster.pdf',
+            },
+            {
+              label: 'Promotional Video',
+              iconClass: 'fas fa-video fa-lg',
+              href: 'https://youtu.be/dummy_promo_video',
+            },
+            {
+              label: 'Demo',
+              iconClass: 'fas fa-laptop fa-lg',
+              href: 'https://youtu.be/dummy_demo_video',
+            },
+          ].map(({ label, iconClass, href }, idx) => (
+            <a
+              key={idx}
+              href={href}
+              className="card shadow--md"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                width: '250px',
+                minHeight: '100px',
+                textAlign: 'center',
+                padding: '1.5rem',
+                textDecoration: 'none',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <div>
+                <h3 style={{ margin: 0 }}>
+                  <i className={iconClass} style={{ marginRight: '0.5rem' }}></i>
+                  {label}
+                </h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+
+      {/* Existing tables */}
       <div className={`container ${styles.tablesContainer}`}>
         <div>
           <DeliverablesTable />
@@ -237,7 +289,7 @@ export default function HomepageFeatures(): JSX.Element {
           <MinutesTable />
         </div>
       </div>
-
     </>
   );
 }
+
