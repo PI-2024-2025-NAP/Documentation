@@ -8,7 +8,7 @@ sidebar_label: Architectural Diagram
 
 Below is a high-level diagram illustrating the system architecture of the **AI-Powered Platform for Smart City Issue Detection & Resolution**, showing how the various components and technologies are integrated to form a cohesive and scalable platform.
 
-![System Architecture Diagram](../../static/img/architecture/architecture.1.0.0.svg)
+![System Architecture Diagram](../../static/img/architecture/PI-Architecture-v2.0.1.svg)
 
 The diagram represents a **modern, scalable, and distributed system** designed for **real-time data processing, analytics, and smart city applications**. The architecture integrates **Kubernetes clusters, event-driven communication, and machine learning components** to process incidents, analyze data, and deliver insights to both **citizens and city operators**.  
 
@@ -23,7 +23,7 @@ The diagram represents a **modern, scalable, and distributed system** designed f
   - **Status tracking**  
 - **SendGrid** (a third-party email service) is used for notifications, alerts and identity confirmation.  
 
-### 2. Data Processing & Business Logic Layer (ATCLL Kubernetes Clusters)  
+### 2. Business Logic Layer 
 
 This section is the **core of the system**, responsible for handling API requests, processing business logic, and managing data.  
 
@@ -31,22 +31,21 @@ This section is the **core of the system**, responsible for handling API request
 - Includes controllers such as:  
   - **Auth Controller**  
   - **User Controller**  
-  - **Problem Controller**  
-  - **Report Controller**  
+  - **Occurrence Controller**  
+  - **Incident Controller**  
 - Handles **authentication, user management, problem management and report submission**.  
 
 #### Business Logic Layer (Kubernetes Pod)  
-- **Problem Service** – Processes user-reported issues.  
-- **Problem Clustering** – Groups similar problems for better analysis.  
-- **Image Processing** – Anonimates and pre-processes images.  
-- **Location Finder** – Determines the location of reported incidents using H3.  
+- Contains the core business logic for the system, including:
+- **Auth Service** – Manages user authentication and authorization.
+- **LLM Producer** - Connects to the Kafka broker to produce messages for LLM processing.
+- **Occurrence Service** – Processes user-reported issues.  
 
-#### Web Interface Pod  
-- Provides a **web-based UI** for city operators to monitor and manage reports. 
+### 3. Databases
 
-### 3. DataBase
+Below are the main databases used in the system, each serving a specific purpose:
 
-#### Cassandra: Benefits and Why the choice
+#### Main Storage: Cassandra
 
 - **Scalability**: Cassandra scales horizontally by simply adding new nodes, making it ideal for handling growing data loads.
 - **High Availability**: It offers robust replication and a decentralized architecture, ensuring continuous service even during node failures.
@@ -54,26 +53,23 @@ This section is the **core of the system**, responsible for handling API request
 - **Fault Tolerance**: Its distributed, peer-to-peer design makes the system resilient to hardware failures and network issues.
 - **Flexible Data Model**: Supports a wide range of data structures, allowing adaptability as application requirements evolve.
 
-### 4. Data Ingestion & Event Streaming Layer  
+#### File Storage: MinIO
 
-#### Edge Data Ingestion Layer (Kubernetes Pod)  
-- Connects with **MQTT Broker** to subscribe to **real-time data from external sources** like the location of the **PIXKIT** and to check if an incident is resolved.
-- Also connects to publish, based on the **PIXKIT's** location, if it passed close to any pending or in-progress incident.
+- **S3 API Compatibility**: MinIO is fully compatible with the Amazon S3 API, allowing for seamless integration with existing tools and libraries designed for AWS S3.
+- **On-Premises and Private Cloud Deployment**: It can be deployed on-premises or in private cloud environments, offering complete control over your infrastructure.
+- **High Performance**: Designed for high-performance object storage, MinIO is well-suited for demanding workloads in edge computing and hybrid cloud environments.
+- **Lightweight Alternative**: MinIO provides a lightweight and efficient alternative for local or private object storage deployments.
+- **Open-Source**: Being open-source, MinIO offers flexibility and transparency, benefiting from community contributions and allowing for custom modifications.
+
+### 5. Event Streaming Layer (Kafka Broker)
 
 #### Kafka Broker (Kubernetes Pod)  
+
 - Uses **Kafka** as the **central internal event-streaming platform**.  
 - Manages **asynchronous data processing**.  
-- Used to manage many requests to generate images' descriptions and classifications 
+- Used to manage many requests to generate images' descriptions and classifications.
 
-### 5. AI/ML Processing Layer (NAP VMs)  
+### 6. LLM Processing Layer
 
-- The system integrates **Machine Learning (ML)** and **Large Language Models (LLMs)** for advanced data processing.  
-- Runs on **GPU-powered VMs**, supporting:  
-  - **AI-driven analytics** such as image classification
-  - **Natural language processing** to generate descriptions for images
-
-### 6. External Data Processing (Aveiro Tech City Living Lab)  
-
-- A separate **IoT-based system** that collects **real-time physical data** if it is active (when the PIXKIT passed close to an incident).  
-- Includes a **Computer Vision Instance** for detecting incidents and their resolved trust level.  
-- Uses an **MQTT Broker** to publish and consume messages.  
+- The system uses Gemini as the **Large Language Model (LLM)** for processing user requests and generating responses.
+- The LLM Consumer connects to the Kafka broker to consume messages and produce responses based on user requests.
