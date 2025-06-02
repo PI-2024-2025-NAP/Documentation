@@ -244,12 +244,12 @@ export default function HomepageFeatures(): JSX.Element {
             {
               label: 'Promotional Video',
               iconClass: 'fas fa-video fa-lg',
-              href: 'https://www.youtube.com/watch?v=vdJwZ-qUtsk',
+              href: 'https://www.youtube.com/watch?v=C2qVk_YWHe8',
             },
             {
               label: 'Demo',
               iconClass: 'fas fa-laptop fa-lg',
-              href: 'https://www.youtube.com/watch?v=xDF1uHhStT0',
+              href: 'https://www.youtube.com/watch?v=qCkZ_LuMujI',
             },
           ].map(({ label, iconClass, href }, idx) => (
             <a

@@ -7,7 +7,7 @@ sidebar_position: 1
 
 # Course
 
-**PI - Projeto em Informática**
+**PI - Project in Informatics**
 
 # Date
 
