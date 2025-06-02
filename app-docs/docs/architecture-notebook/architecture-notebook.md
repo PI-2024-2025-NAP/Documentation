@@ -12,5 +12,4 @@ Welcome to the **Architecture** section. This area provides an in-depth look int
 
 - [Architecture Diagram](./architecture-diagram.md)
 - [Deploy Diagram](./deploy-diagram.md)
-- [Tech Stack](./tech_stack.md)
 
