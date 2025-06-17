@@ -86,6 +86,16 @@ const deliverables = [
     date: "2025-05-20",
     file: "deliverables/Checkpoint III.pdf",
   },
+  {
+    name: "M4 Final Presentation",
+    date: "2025-06-03",
+    file: "deliverables/M4-Final-Presentation.pdf",
+  },
+  {
+    name: "Technical Report",
+    date: "2025-06-17",
+    file: "deliverables/TechnicalReport-FixAI.pdf",
+  },
 
 ];
 
