@@ -94,7 +94,7 @@ const deliverables = [
   {
     name: "Technical Report",
     date: "2025-06-17",
-    file: "deliverables/TechnicalReport-FixAI.pdf",
+    file: "deliverables/TechnicalReport-G11.pdf",
   },
 
 ];
